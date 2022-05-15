@@ -90,13 +90,10 @@ python cal_shap.py
 - to generate regional attribution of images in Stanford Dog Dataset(sdd) on alexnet with bim
 ```cmd
 python main_attribution.py --data_type sdd --model_type alexnet --attack_type li
-python cal_shap_celeba.py
+python cal_shap.py
 ```
 
-## Data
-Datasets in this program include Pascal VOC 2012(voc), CUB200-2011(cub), Stanford Dog(sdd). To be mentioned, we extract images with label {0,19,39,59,79,99,119,139,159,179,199} in cub to form dataset tiny_cub, each has a new label {0,1,2,3,4,5,6,7,8,9}. Images used are given as follows.
-Link: <https://pan.baidu.com/s/1Sg241TYOG9v8h9THuzaTKg>
-Password: 1234
+
 
 ## - Citation
 
